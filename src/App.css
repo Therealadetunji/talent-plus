@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar,
+.hero {
+  background: #004db3;
+}
+
+.nav-link, .btn, .card-body, .lead {
+  font-family: "Satoshi";
+}
+
+.display-4 {
+  font-family: "Clash Display";
+}
+
+.navbar-brand {
+  font-family: "Amazing Kids";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 47px;
+  text-transform: capitalize;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn-outline-light {
+  color: #004db3;
+}
+
+.intro {
+  margin-top: 100px;
+}
+
+.first-intro {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  color: #fff;
+}
+
+.first-paragraph {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #e7e7e7;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#button-addon1 {
+  box-sizing: border-box;
+  gap: 8px;
+  width: 200px;
+  height: 54px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #fff;
+}
+
+#button-addon2 {
+  padding: 16px 32px;
+  gap: 10px;
+  width: 145px;
+  height: 54px;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.img1,
+.img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.vector1 {
+  left: 8.8%;
+  right: 90.28%;
+  top: 12.54%;
+  bottom: 85.65%;
+}
+
+.vector2 {
+  position: absolute;
+  left: 38.72%;
+  right: 60.76%;
+  top: 34.24%;
+  bottom: 84.74%;
+}
+
+.vector3 {
+  position: absolute;
+  left: 0%;
+  right: 96.34%;
+  top: 70%;
+  bottom: 48.93%;
+}
+
+.partnership {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  background: #ccdbf0;
+}
+/* About Section */
+
+.about-us {
+  background: #f8f9fc;
+}
+
+.about-intro {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.card-1 {
+  /* width: 14.5rem; */
+  flex: 5;
+  font-size: 16px;
+}
+
+.card-2 {
+  /* width: 13.63rem; */
+  flex: 4;
+  font-size: 16px;
+}
+
+.card-3 {
+  /* width: 13.63rem; */
+  flex: 4;
+  font-size: 16px;
+}
+
+.card-4 {
+  /* width: 13.63rem; */
+  flex: 4;
+  font-size: 16px;
+}
+
+.reviews2 {
+  position: absolute;
+  width: 205px;
+  height: 81px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 5rem;
+}
+
+.vector6 {
+  position: absolute;
+  /* left: 81.54%;
+  right: 0.95%; */
+  display: flex;
+  justify-content: flex-end;
+  top: 89.8rem;
+  margin-left: 28rem;
+}
+
+.vector8 {
+  margin-left: 2rem;
+  margin-bottom: 7rem;
+}
+
+@media (max-width: 768px) {
+  .card-1 {
+    /* width: 9rem; */
+    font-size: 8px;
+  }
+
+  .card-2 {
+    /* width: 6rem; */
+    font-size: 8px;
+  }
+
+  .card-3 {
+    /* width: 6rem; */
+    font-size: 8px;
+  }
+
+  .card-4 {
+    /* width: 6rem; */
+    font-size: 8px;
+  }
+}

@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@font-face {
+  font-family: "Amazing Kids";
+  src: local("Amazing Kids"), url("./fonts/Amazing-Kids.ttf") format("truetype");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Satoshi";
+  src: local("Satoshi"), url("./fonts/Satoshi-Regular.ttf") format("truetype");
+
+  font-family: "Clash Display";
+  src: local("Clash Display"), url("./fonts/FontsFree-Net-ClashDisplay-Variable.ttf") format("truetype");
 }
+/* 
+@font-face {
+  font-family: "Satochi";
+  src: local("Satochi"), url("./fonts/Satochi-Regular.ttf") format("truetype");
+} */
+
