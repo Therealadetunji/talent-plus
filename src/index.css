@@ -1,16 +1,14 @@
 @font-face {
   font-family: "Amazing Kids";
   src: local("Amazing Kids"), url("./fonts/Amazing-Kids.ttf") format("truetype");
-
   font-family: "Satoshi";
   src: local("Satoshi"), url("./fonts/Satoshi-Regular.ttf") format("truetype");
-
   font-family: "Clash Display";
   src: local("Clash Display"), url("./fonts/FontsFree-Net-ClashDisplay-Variable.ttf") format("truetype");
 }
-/* 
+
+/*
 @font-face {
   font-family: "Satochi";
   src: local("Satochi"), url("./fonts/Satochi-Regular.ttf") format("truetype");
 } */
-
