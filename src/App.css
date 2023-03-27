@@ -9,16 +9,19 @@
   background: #004db3;
 }
 
-.nav-link, .btn, .card-body, .lead {
-  font-family: "Satoshi";
+.nav-link,
+.btn,
+.card-body,
+.lead {
+  font-family: "Satoshi", sans-serif;
 }
 
 .display-4 {
-  font-family: "Clash Display";
+  font-family: "Clash Display", sans-serif;
 }
 
 .navbar-brand {
-  font-family: "Amazing Kids";
+  font-family: "Amazing Kids", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 47px;
@@ -46,7 +49,7 @@
 }
 
 .first-paragraph {
-  font-family: "Satoshi";
+  font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -117,6 +120,7 @@
   object-fit: fill;
   background: #ccdbf0;
 }
+
 /* About Section */
 
 .about-us {
@@ -124,7 +128,7 @@
 }
 
 .about-intro {
-  font-family: "Clash Display";
+  font-family: "Clash Display", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -139,19 +143,16 @@
 }
 
 .card-2 {
-  /* width: 13.63rem; */
   flex: 4;
   font-size: 16px;
 }
 
 .card-3 {
-  /* width: 13.63rem; */
   flex: 4;
   font-size: 16px;
 }
 
 .card-4 {
-  /* width: 13.63rem; */
   flex: 4;
   font-size: 16px;
 }
@@ -160,15 +161,13 @@
   position: absolute;
   width: 205px;
   height: 81px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   margin-top: 5rem;
 }
 
 .vector6 {
   position: absolute;
-  /* left: 81.54%;
-  right: 0.95%; */
   display: flex;
   justify-content: flex-end;
   top: 89.8rem;
