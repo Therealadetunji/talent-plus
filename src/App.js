@@ -42,6 +42,12 @@ import pic6 from './images/picture (6).png';
 import dot from './images/Frame 182.png';
 import dot2 from './images/Frame 183.png';
 import img4 from './images/Frame 209.png';
+import add from './images/add.png';
+import facebook from './images/g10.png';
+import twitter from './images/Twitter  svg.png';
+import instagram from './images/Instagram svg.png';
+import youtube from './images/YouTube svg.png';
+import discord from './images/Discord svg.png';
 
 function App() {
   return (
@@ -621,6 +627,140 @@ function App() {
         </div>
       </section>
 
+      {/* Questions */}
+
+      <section className="questions">
+        <div className="container-fluid p-5">
+          <h1 className="text-center display-4 questions-intro">frequently asked questions</h1>
+          <p className="lead text-center questions-paragraph">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
+          <div className="d-flex justify-content-start mt-5">
+            <h3 className="free-trial lead">
+              is there a free trial available?
+            </h3>
+          </div>
+          <div className="d-flex justify-content-center">
+            <p className="free-trial-paragraph lead">high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition.</p>
+          </div>
+
+          {/* Accordion */}
+
+          <div className="wrapper mt-5">
+            <div className="accordion">
+              <div className="border mb-5" />
+              <div className="item mb-5">
+                <div className="accordion-item-header d-flex text-center">
+                  <h3 className="questions-title lead">can i change my plan later?</h3>
+                  <i>
+                    <img src={add} alt="add" />
+                  </i>
+                </div>
+              </div>
+              <div className="border mb-5" />
+              <div className="item mb-5">
+                <div className="accordion-item-header d-flex text-center">
+                  <h3 className="questions-title">are the courses lifetime?</h3>
+                  <i>
+                    <img src={add} alt="add" />
+                  </i>
+                </div>
+              </div>
+              <div className="border mb-5" />
+              <div className="item mb-5">
+                <div className="accordion-item-header d-flex text-center">
+                  <h3 className="questions-title">do i get certified after taking courses?</h3>
+                  <i>
+                    <img src={add} alt="add" />
+                  </i>
+                </div>
+              </div>
+              <div className="border mb-5" />
+              <div className="item mb-5">
+                <div className="accordion-item-header d-flex text-center">
+                  <h3 className="questions-title">how do i reach out to mentors?</h3>
+                  <i>
+                    <img src={add} alt="add" />
+                  </i>
+                </div>
+              </div>
+              <div className="border mb-5" />
+              <div className="item mb-5">
+                <div className="accordion-item-header d-flex text-center">
+                  <h3 className="questions-title">do we get job ready after taking courses?</h3>
+                  <i>
+                    <img src={add} alt="add" />
+                  </i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="footer">
+        <div className="container-fluid p-5">
+          <div className="row row-footer">
+            <div className="col-md-4">
+              <span className="navbar-brand">
+                Tech Time
+              </span>
+              <p className="lead footer-paragraph text-light mt-5">reach out to us on any of our social media networks</p>
+              <div className="d-flex social-media-apps">
+                <i>
+                  <img src={facebook} alt="facebook" />
+                </i>
+                <i>
+                  <img src={twitter} alt="twitter" />
+                </i>
+                <i>
+                  <img src={instagram} alt="instagram" />
+                </i>
+                <i>
+                  <img src={youtube} alt="youtube" />
+                </i>
+                <i>
+                  <img src={discord} alt="discord" />
+                </i>
+              </div>
+            </div>
+            <div className="col-md-4 links-communities">
+              <h3 className="footer-title display-4">Useful links</h3>
+              <div className="links">
+                <span className="footer-links lead">Home</span>
+                <span className="footer-links lead">About</span>
+                <span className="footer-links lead">Our Courses</span>
+                <span className="footer-links lead">Our Team</span>
+                <span className="footer-links lead">Testimonials</span>
+                <span className="footer-links lead">Our community</span>
+              </div>
+            </div>
+            <div className="col-md-4 links-communities">
+              <h3 className="footer-title display-4">Community</h3>
+              <div className="links">
+                <h4 className="footer-links lead">Help centers</h4>
+                <h4 className="footer-links lead">partners</h4>
+                <h4 className="footer-links lead">suggestions</h4>
+                <h4 className="footer-links lead">Blog</h4>
+                <h4 className="footer-links lead">Newsletter</h4>
+              </div>
+            </div>
+
+            <div className="col-md-4 subscribe">
+              <h3 className="footer-title display-4">Subscribe Us</h3>
+              <div className="d-flex">
+                <div className="input-group mt-5 d-flex
+                justify-content-center align-items-center
+                community-btn-container
+                "
+                >
+                  <input type="text" className="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon4" />
+                  <button className="btn btn-outline-light bg-primary text-light text-center community-btn" type="button" id="button-addon4">subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

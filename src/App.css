@@ -458,6 +458,121 @@
   color: #004db3;
 }
 
+.questions {
+  background: #f8f9fc;
+}
+
+.questions-intro {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.questions-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.free-trial {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #004db3;
+}
+
+.free-trial-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.questions-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.accordion-item-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.border {
+  width: 100%;
+  height: 0;
+  border: 1px solid #eaeaea;
+}
+
+/* Footer Section */
+
+.footer {
+  background: #000f24;
+}
+
+.row-footer {
+  margin-top: 3rem;
+}
+
+.footer-paragraph {
+  text-transform: capitalize;
+}
+
+.social-media-apps {
+  gap: 2rem;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe {
+  width: 19.333333333%;
+}
+
+.links-communities {
+  width: 23.33333333%;
+}
+
+.footer-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.footer-links {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.form-control {
+  background-color: #2a2a2b;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .card-1 {
@@ -642,5 +757,15 @@
     font-size: 24px;
     line-height: 30px;
     text-transform: capitalize;
+  }
+
+  .links,
+  .links-communities {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .subscribe {
+    width: auto;
   }
 }
