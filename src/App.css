@@ -245,9 +245,6 @@
   line-height: 28px;
   text-transform: capitalize;
   color: #a2a2a2;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
 }
 
 .card-little-title {
@@ -355,6 +352,66 @@
   font-size: 16px;
   line-height: 22px;
   text-transform: capitalize;
+}
+
+.customer-reviews {
+  background: #f8f9fc;
+}
+
+.customers-intro {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.customers-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.text {
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.card-name,
+.card-role {
+  font-family: "Satoshi", sans-serif;
+}
+
+.card-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.card-role {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #a1a1a1;
+}
+
+.slider {
+  gap: 0.5rem;
 }
 
 /* Media Queries */
@@ -480,9 +537,49 @@
     width: 100%;
   }
 
+  .courses-intro {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000f24;
+    text-align: center;
+  }
+
   .third-paragraph {
     display: flex;
     justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a2a2a2;
+  }
+
+  .fourth-paragraph {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #a2a2a2;
+  }
+
+  .customers-intro {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000f24;
+  }
+
+  .customers-paragraph {
     font-style: normal;
     font-weight: 500;
     font-size: 8px;
