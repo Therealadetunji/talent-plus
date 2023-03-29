@@ -41,6 +41,7 @@ import pic5 from './images/picture (5).png';
 import pic6 from './images/picture (6).png';
 import dot from './images/Frame 182.png';
 import dot2 from './images/Frame 183.png';
+import img4 from './images/Frame 209.png';
 
 function App() {
   return (
@@ -598,9 +599,28 @@ function App() {
               <img src={dot} alt="dot" />
             </i>
           </div>
-
         </div>
       </section>
+
+      {/* Join our Community */}
+
+      <section className="join-our-community">
+        <div className="container-fluid p-5">
+          <h3 className="text-center lead text-light community-intro">join our community</h3>
+          <h1 className="display-4 text-center text-light community-title">Are you  ready to connect with the future talent of the tech world</h1>
+          <h4 className="text-center lead text-light community-paragraph">meet up with other techstars and grow together</h4>
+          <img src={img4} alt="img4" className="img4" />
+
+          <div className="input-group mt-5 d-flex
+          justify-content-center align-items-center
+          community-btn-container
+          "
+          >
+            <button className="btn btn-outline-light bg-light text-center community-btn" type="button" id="button-addon4">join our community</button>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
