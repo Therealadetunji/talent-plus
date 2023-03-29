@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar,
+.hero {
+  background: #004db3;
+}
+
+.nav-link,
+.btn,
+.card-body,
+.lead {
+  font-family: "Satoshi", sans-serif;
+}
+
+.display-4 {
+  font-family: "Clash Display", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Amazing Kids", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 47px;
+  text-transform: capitalize;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn-outline-light {
+  color: #004db3;
+}
+
+.intro {
+  margin-top: 100px;
+}
+
+.first-intro {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  color: #fff;
+}
+
+.first-paragraph {
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #e7e7e7;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#button-addon1 {
+  box-sizing: border-box;
+  gap: 8px;
+  width: 200px;
+  height: 54px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #fff;
+}
+
+#button-addon2 {
+  padding: 16px 32px;
+  gap: 10px;
+  width: 145px;
+  height: 54px;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.img1,
+.img2,
+.img3 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.vector1 {
+  left: 8.8%;
+  right: 90.28%;
+  top: 12.54%;
+  bottom: 85.65%;
+}
+
+.vector2 {
+  position: absolute;
+  left: 38.72%;
+  right: 60.76%;
+  top: 34.24%;
+  bottom: 84.74%;
+}
+
+.vector3 {
+  position: absolute;
+  left: 0%;
+  right: 96.34%;
+  top: 70%;
+  bottom: 48.93%;
+}
+
+.partnership {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  background: #ccdbf0;
+}
+
+/* About Section */
+
+.about-us {
+  background: #f8f9fc;
+}
+
+.about-intro {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.card-1 {
+  flex: 5;
+  font-size: 16px;
+}
+
+.card-2 {
+  flex: 4;
+  font-size: 16px;
+}
+
+.card-3 {
+  flex: 4;
+  font-size: 16px;
+}
+
+.card-4 {
+  flex: 4;
+  font-size: 16px;
+}
+
+.reviews2 {
+  position: absolute;
+  width: 205px;
+  height: 81px;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 5rem;
+}
+
+.vector6 {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  top: 89.8rem;
+  margin-left: 28rem;
+}
+
+.vector8 {
+  margin-left: 2rem;
+  margin-bottom: 7rem;
+}
+
+.about-section-2 {
+  background: #f8f9fc;
+}
+
+.reasons {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.third-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.card-title,
+.card-text {
+  font-family: "Satoshi", sans-serif;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.card-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.courses {
+  background: #f8f9fc;
+}
+
+.courses-intro {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.fourth-paragraph {
+  text-align: center;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.card-little-title {
+  align-items: center;
+  padding: 4px 20px;
+  gap: 10px;
+  width: 79px;
+  height: 24px;
+  background: rgba(30, 93, 206, 0.2);
+  border-radius: 16px;
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #1e5dce;
+}
+
+.card-little-title-long {
+  align-items: center;
+  padding: 4px 20px;
+  gap: 10px;
+  width: 115px;
+  height: 24px;
+  background: rgba(30, 93, 206, 0.2);
+  border-radius: 16px;
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #1e5dce;
+}
+
+.first-num {
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #a1a1a1;
+}
+
+.second-num {
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #a1a1a1;
+}
+
+.third-num {
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #a1a1a1;
+}
+
+.first-words {
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #a1a1a1;
+}
+
+.second-words {
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.fourth-num {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #004db3;
+}
+
+#button-addon3 {
+  padding: 16px 32px;
+  gap: 10px;
+  background: #004db3;
+  border-radius: 4px;
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .card-1 {
+    font-size: 8px;
+  }
+
+  .card-2 {
+    font-size: 8px;
+  }
+
+  .card-3 {
+    font-size: 8px;
+  }
+
+  .card-4 {
+    font-size: 8px;
+  }
+
+  .first-intro {
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  .first-paragraph {
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  #button-addon1 {
+    font-size: 8px;
+    line-height: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 4px;
+    width: 110px;
+    height: 28px;
+    border: 0.55831px solid #fff;
+    border-radius: 2.23324px;
+  }
+
+  #button-addon2 {
+    font-size: 8px;
+    line-height: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    width: 73px;
+    height: 27px;
+    background: #fff;
+    border-radius: 2.23324px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-intro {
+    font-size: 24px;
+    line-height: 36px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 2rem;
+  }
+
+  .vector5 {
+    left: 10px;
+    width: 24.11px;
+    height: 36.01px;
+    position: absolute;
+  }
+
+  .second-paragraph {
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .view-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .reviews2 {
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    border-radius: 3.50685px;
+  }
+
+  .vector7 {
+    position: absolute;
+    right: -0.8%;
+    top: 93rem;
+  }
+
+  .vector8 {
+    position: absolute;
+    right: -0.3%;
+    top: 53rem;
+  }
+
+  .reasons {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+  }
+
+  .third-paragraph {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a2a2a2;
+  }
+}
