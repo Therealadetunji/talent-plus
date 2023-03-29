@@ -39,6 +39,8 @@ import pic3 from './images/picture (3).png';
 import pic4 from './images/picture (4).png';
 import pic5 from './images/picture (5).png';
 import pic6 from './images/picture (6).png';
+import dot from './images/Frame 182.png';
+import dot2 from './images/Frame 183.png';
 
 function App() {
   return (
@@ -260,16 +262,16 @@ function App() {
           <p className="lead fourth-paragraph">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
           <ul className="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
             <li className="nav-item" role="presentation">
-              <button className="nav-link bg-light" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">all categories </button>
+              <button className="nav-link bg-light" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All categories </button>
             </li>
             <li className="nav-item" role="presentation">
-              <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">design</button>
+              <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Design</button>
             </li>
             <li className="nav-item" role="presentation">
-              <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">development</button>
+              <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Development</button>
             </li>
             <li className="nav-item" role="presentation">
-              <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">marketing</button>
+              <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Marketing</button>
             </li>
           </ul>
 
@@ -548,10 +550,55 @@ function App() {
               </div>
             </div>
           </div>
-
           <div className="input-group mb-3 mt-5 d-flex justify-content-center align-items-center">
             <button type="button" className="btn btn-outline-secondary bg-primary text-light" id="button-addon3">explore all courses</button>
           </div>
+        </div>
+      </section>
+
+      {/* Customer Reviews */}
+
+      <section className="customer-reviews">
+        <div className="container fluid p-5">
+          <h1 className="display-4 text-center customers-intro">what our clients are saying</h1>
+          <p className="lead text-center customers-paragraph">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
+
+          <div className="row mt-5">
+            <div className="owl-carousel owl-theme">
+              <div className="item">
+                <div className="card">
+                  <div className="card-body">
+                    <p className="text">high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world</p>
+                    <div className="d-flex">
+                      <i>
+                        <img src={profilepic2} alt="profilepic2" />
+                      </i>
+                      <div className="d-flex flex-column">
+                        <span className="card-name">samuel fortune</span>
+                        <span className="card-role">product designer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="d-flex justify-content-center align-items-center slider">
+            <i>
+              <img src={dot} alt="dot" />
+            </i>
+            <i>
+              <img src={dot2} alt="dot2" />
+            </i>
+            <i>
+              <img src={dot} alt="dot" />
+            </i>
+            <i>
+              <img src={dot} alt="dot" />
+            </i>
+          </div>
+
         </div>
       </section>
     </div>
