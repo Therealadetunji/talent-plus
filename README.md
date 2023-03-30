@@ -11,17 +11,23 @@
 - CSS
 
 ## Loom Video
-[Loom Video](https://www.loom.com/share/3985e884bcd4410285b5563597d14c79)
+[Video](https://screenapp.io/#/library/personal/71b6c121-d2ba-4a35-8f00-2d08df0c14c8)
 
-## 🛠 Installation & Set Up
+## 🛠 Docker Set Up
+
+In the terminal run
+                -docker build -t react . (creates an image)
+                then run docker run --publish 3000:3000 react 
+Using the terminal to check container created run
+                                                - docker container ps               
+                checkout http://localhost:3000/ to see react app on local Machine
+
+
+## 🛠 Installation & Set Up (Basic not Docker)
 
 If you dont have node install on your computer, Install node js from [here](https://nodejs.org/en) as your JavaScript Runtime Engine
 
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-
-Download the ZIP from this Github, or run the following git command to clone the files to your machine:
-
-Once the files are on your machine, open the space-travelers folder in Visual Studio Code, and follow the steps in Installation & Set Up
+If you installed git you can clone the code to your machine
 
 - Install Node Modules
 
