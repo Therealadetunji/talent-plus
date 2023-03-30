@@ -172,12 +172,17 @@
   display: flex;
   justify-content: flex-end;
   top: 89.8rem;
-  margin-left: 28rem;
+  margin-left: 25.8rem;
 }
 
-.vector8 {
-  margin-left: 2rem;
-  margin-bottom: 7rem;
+.vector9 {
+  display: flex;
+  margin-left: 54.8rem;
+}
+
+.vector10 {
+  display: flex;
+  margin-left: 37.8rem;
 }
 
 .about-section-2 {
@@ -254,7 +259,7 @@
   align-items: center;
   padding: 4px 20px;
   gap: 10px;
-  width: 79px;
+  width: 82px;
   height: 24px;
   background: rgba(30, 93, 206, 0.2);
   border-radius: 16px;
@@ -271,7 +276,7 @@
   align-items: center;
   padding: 4px 20px;
   gap: 10px;
-  width: 115px;
+  width: 116px;
   height: 24px;
   background: rgba(30, 93, 206, 0.2);
   border-radius: 16px;
@@ -654,6 +659,41 @@
     position: absolute;
   }
 
+  .vector6 {
+    display: block;
+    position: absolute;
+
+    /* left: 82.37%; */
+    right: 9.46%;
+    top: 110rem;
+
+    /* bottom: 4.06%; */
+  }
+
+  .vector6 > img {
+    width: 70px;
+  }
+
+  .vector8 {
+    display: none;
+  }
+
+  .vector9 {
+    display: block;
+    position: absolute;
+    right: 23rem;
+  }
+
+  .vector10 {
+    display: none;
+  }
+
+  .vector11 {
+    left: 10px;
+    width: 24.11px;
+    top: 30rem;
+  }
+
   .second-paragraph {
     font-size: 8px;
     line-height: 15px;
@@ -675,14 +715,8 @@
 
   .vector7 {
     position: absolute;
-    right: -0.8%;
-    top: 93rem;
-  }
-
-  .vector8 {
-    position: absolute;
-    right: -0.3%;
-    top: 53rem;
+    right: -1.8%;
+    top: 91.2rem;
   }
 
   .reasons {

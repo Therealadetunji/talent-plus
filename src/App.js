@@ -7,14 +7,15 @@ import review from './images/Frame 101.png';
 import vector1 from './images/Vector (4).png';
 import vector2 from './images/Vector (5).png';
 import vector3 from './images/Vector (3).png';
+import outward from './images/arrow_outward.png';
 import vector4 from './images/Vector (6).png';
 import partners from './images/Frame 126.png';
 import img2 from './images/Frame 122.png';
 import vector5 from './images/Vector (7).png';
 import reviews2 from './images/Frame 113.png';
-// import vector6 from './images/Vector (8).png';
+import vector6 from './images/Vector (8).png';
 import vector7 from './images/Vector (9).png';
-// import vector8 from './images/Vector (10).png';
+import vector8 from './images/Vector (10).png';
 import icon from './images/Frame 110.png';
 import icon2 from './images/Frame 110 (1).png';
 import icon3 from './images/Frame 110 (2).png';
@@ -48,11 +49,16 @@ import twitter from './images/Twitter  svg.png';
 import instagram from './images/Instagram svg.png';
 import youtube from './images/YouTube svg.png';
 import discord from './images/Discord svg.png';
+import vector9 from './images/Vector (11).png';
+import vector10 from './images/Vector (12).png';
+import vector11 from './images/Vector (13).png';
 
 function App() {
   return (
     <div className="App">
+
       {/* Navbar */}
+
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid m-4">
           <span className="navbar-brand mb-0 h2">Tech Time</span>
@@ -83,6 +89,7 @@ function App() {
       </nav>
 
       {/* Hero */}
+
       <section className="hero">
         <div className="container-fluid p-5">
           <i className="vector1">
@@ -99,7 +106,10 @@ function App() {
               <h1 className="display-4 first-intro">Grow your skills to advance your career path</h1>
               <p className="lead first-paragraph">build your future with our quality education. the best and largest all-in-one online tutoring platform in the world</p>
               <div className="input-group mb-3 gap-4 buttons">
-                <button className="btn btn-outline-secondary d-flex justify-content-center align-items-center" type="button" id="button-addon1">Get Started Now</button>
+                <button className="btn btn-outline-secondary d-flex justify-content-center align-items-center" type="button" id="button-addon1">
+                  Get Started Now
+                  <img src={outward} alt="outward" />
+                </button>
                 <button className="btn btn-outline-light bg-light d-flex justify-content-center align-items-center" type="button" id="button-addon2">Enroll Now</button>
               </div>
               <div className="mb-5">
@@ -117,6 +127,7 @@ function App() {
       </section>
 
       {/* Partnership */}
+
       <section className="partnership">
         <div className="container-fluid">
           <img src={partners} alt="partners" className="partnership" />
@@ -124,6 +135,7 @@ function App() {
       </section>
 
       {/* About Us */}
+
       <section className="about-us">
         <div className="container-fluid p-5">
           <div className="row">
@@ -157,7 +169,6 @@ function App() {
                   </div>
                 </div>
               </div>
-
               <div className="d-flex gap-4">
                 <div className="card card-3">
                   <div className="card-body d-flex justify-content-center align-items-center">
@@ -177,18 +188,15 @@ function App() {
                 </div>
               </div>
             </div>
-
             <div className="col-md-6 mt-4">
               <div>
                 <img src={reviews2} alt="reviews" className="reviews2" />
               </div>
               <img src={img2} alt="img" className="img2" />
-              {/* <i className="vector6">
+              <i className="vector6">
                 <img src={vector6} alt="vector" />
-              </i> */}
-              {/* <i className="vector8 d-flex justify-content-end">
-              <img src={vector8} alt="vector" className="vector8" />
-            </i> */}
+                <img src={vector8} alt="vector" className="vector8" />
+              </i>
             </div>
           </div>
         </div>
@@ -200,6 +208,9 @@ function App() {
         <div className="container-fluid p-5">
           <div className="row">
             <div className="col-md-6">
+              <i className="vector9">
+                <img src={vector9} alt="vector" />
+              </i>
               <h1 className="display-4 reasons">this is why we are best from others</h1>
               <p className="lead third-paragraph">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
               <div>
@@ -219,7 +230,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="card">
                     <div className="card-body">
@@ -231,7 +241,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="card">
                     <div className="card-body">
@@ -243,7 +252,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="card">
                     <div className="card-body">
@@ -255,6 +263,9 @@ function App() {
                     </div>
                   </div>
                 </div>
+                <i>
+                  <img src={vector10} alt="vector" className="vector10" />
+                </i>
               </div>
             </div>
           </div>
@@ -267,6 +278,9 @@ function App() {
         <div className="container-fluid p-5">
           <h1 className="display-4 courses-intro">browse our popular courses</h1>
           <p className="lead fourth-paragraph">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
+          <i>
+            <img src={vector11} alt="vector" className="vector11" />
+          </i>
           <ul className="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
             <li className="nav-item" role="presentation">
               <button className="nav-link bg-light" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All categories </button>
@@ -281,7 +295,6 @@ function App() {
               <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Marketing</button>
             </li>
           </ul>
-
           <div className="tab-content" id="pills-tabContent">
             <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
               <div className="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-4">
@@ -329,7 +342,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="card">
                     <img src={pic2} className="card-img-top" alt="pic2" />
@@ -374,7 +386,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="card">
                     <img src={pic3} className="card-img-top" alt="pic3" />
@@ -404,7 +415,6 @@ function App() {
                           <span className="first-words">55 lessons</span>
                         </div>
                       </div>
-
                       <div className="d-flex justify-content-between mt-4">
                         <div>
                           <i>
@@ -419,7 +429,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="card">
                     <img src={pic4} className="card-img-top" alt="pic4" />
@@ -449,7 +458,6 @@ function App() {
                           <span className="first-words">22 lessons</span>
                         </div>
                       </div>
-
                       <div className="d-flex justify-content-between mt-4">
                         <div>
                           <i>
@@ -464,7 +472,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="card">
                     <img src={pic5} className="card-img-top" alt="pic5" />
@@ -509,7 +516,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
                 <div className="col">
                   <div className="card">
                     <img src={pic6} className="card-img-top" alt="pic6" />
@@ -539,7 +545,6 @@ function App() {
                           <span className="first-words">32 lessons</span>
                         </div>
                       </div>
-
                       <div className="d-flex justify-content-between mt-4">
                         <div>
                           <i>
@@ -569,7 +574,6 @@ function App() {
         <div className="container fluid p-5">
           <h1 className="display-4 text-center customers-intro">what our clients are saying</h1>
           <p className="lead text-center customers-paragraph">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
-
           <div className="row mt-5">
             <div className="owl-carousel owl-theme">
               <div className="item">
@@ -590,7 +594,6 @@ function App() {
               </div>
             </div>
           </div>
-
           <div className="d-flex justify-content-center align-items-center slider">
             <i>
               <img src={dot} alt="dot" />
@@ -697,6 +700,7 @@ function App() {
       </section>
 
       {/* Footer */}
+
       <footer className="footer">
         <div className="container-fluid p-5">
           <div className="row row-footer">
@@ -744,7 +748,6 @@ function App() {
                 <h4 className="footer-links lead">Newsletter</h4>
               </div>
             </div>
-
             <div className="col-md-4 subscribe">
               <h3 className="footer-title display-4">Subscribe Us</h3>
               <div className="d-flex">
